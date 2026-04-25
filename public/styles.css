@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e2e8f0;
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* Секции */
+.section {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(30, 41, 59, 0.6);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Заголовки секций */
+.section h2 {
+  margin-bottom: 10px;
+}
+
+/* Кнопки */
+button {
+  background: #3b82f6;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Input */
+input {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 5px;
+}
+
+/* Карточки */
+.card {
+  background: linear-gradient(145deg, #020617, #0f172a);
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.05);
+
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Контейнеры */
+#logs, #results {
+  margin-top: 10px;
+}

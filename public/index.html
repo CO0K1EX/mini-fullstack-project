@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="counter"></h1>
+
+<h1>🚀 Mini System Dashboard</h1>
+
+<div class="section">
+  <h2>📊 Logs</h2>
+  <button onclick="addLog()">Добавить</button>
+  <div id="logs"></div>
+</div>
+
+<div class="section">
+  <h2>🤖 AI Search</h2>
+  <input id="q" placeholder="Например: react">
+  <button onclick="search()">Поиск</button>
+  <div id="results"></div>
+</div>
+
+<div class="section">
+  <h2>⚙ Event Flow</h2>
+  <button onclick="event1()">Start chain</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
